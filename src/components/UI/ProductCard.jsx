@@ -3,6 +3,7 @@ import React from "react";
 import { Col } from "reactstrap";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { toast } from 'react-toastify';
 
 import "../../styles/ProductCard.css";
 
@@ -22,7 +23,7 @@ const ProductCard = ({ item }) => {
             })
         );
 
-        alert("product added to the cart");
+        toast.success("Product added successfully")
     };
     return (
         <Col lg='3' md='4' className='mb-2'>
