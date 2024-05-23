@@ -1,6 +1,6 @@
 .product_details {
     /* display: flex;
-      flex-direction: column; */
+        flex-direction: column; */
     margin-top: 50px;
 }
 
@@ -83,4 +83,10 @@
     color: coral;
     font-weight: 600;
     cursor: pointer;
+}
+
+.related_title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
 }
